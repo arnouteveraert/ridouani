@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sobi2plugin>
+	<name>SOBI2 JComments</name>
+	<nameId>jcomments</nameId>
+	<description>JComments Plugin for SOBI2</description>
+	<author>smart</author>
+	<authorEmail>smart@joomlatune.ru</authorEmail>
+	<authorUrl>http://www.joomlatune.ru</authorUrl>
+	<copyright>Copyright 2006-2009 JoomlaTune.ru All rights reserved!</copyright>
+	<creationDate>27/05/2009</creationDate>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.5</version>
+	<initFile>jcomments_init.php</initFile>
+	<files>
+		<frontend>
+			<file>jcomments.class.php</file>
+			<file>jcomments_init.php</file>
+		</frontend>
+		<backend>
+			<file>admin.jcomments.class.php</file>
+			<file>admin.jcomments_init.php</file>
+		</backend>
+	</files>
+	<queries>
+	</queries>
+</sobi2plugin>
