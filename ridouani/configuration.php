@@ -46,6 +46,7 @@ class JConfig {
 	var $smtpuser = 'w0396574_iDlgJjo';
 	var $smtppass = '';
 	var $smtphost = 'localhost';
+	/**var $smtphost = 'localhost';*/
 	var $MetaAuthor = '1';
 	var $MetaTitle = '1';
 	var $lifetime = '45';
