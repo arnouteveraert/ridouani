@@ -1,0 +1,361 @@
+/*
+*		JoomSpirit CSS file for typo
+*
+*/
+
+
+
+
+body {
+font-family: arial, verdana, helvetica, tahoma, sans-serif;
+line-height: 16px;
+}
+
+p {
+margin: 8px 0 14px 0;
+}
+
+
+
+
+h1, h2, h3, h4 {
+font-family: arial, Verdana;
+text-decoration: none;
+text-transform:none;
+font-weight:normal;
+padding:13px 0 0px 0;
+}
+
+h1, h2.contentheading, h2.contentheading {
+display: block;
+/*font-size:18px;*/
+font-weight:bold;
+line-height:18px;
+padding: 0 0 4px 0;
+margin-bottom:15px;
+text-transform:uppercase;
+color: #CC0000;
+border-bottom: 1px solid #CC0000;
+}
+
+h1.componentheading {
+padding-bottom:10px;
+color:#ff9933;
+border-bottom: none;
+}
+
+h2{
+font-size:12px;
+line-height:18px;
+padding:8px 0 0px 0;
+color:#ff9933;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+h2 a {
+text-decoration: none;
+}
+
+h2 a:hover {
+text-decoration: none;
+color:#ff9933;
+}
+
+h3 {
+font-size:12px;
+line-height:18px;
+color:#CC0000;
+font-weight:bold;
+/*text-transform:uppercase;*/
+}
+
+h4 {
+font-size:12px;
+line-height:18px;
+color:#999;
+font-weight:bold;
+text-transform:uppercase;
+}
+
+h5 {
+font-size:12px;
+line-height:18px;
+color:#CC0000;
+font-weight:bold;
+text-transform:none;
+}
+
+h6 {
+font-size:12px;
+line-height:18px;
+color:#999;
+font-weight:bold;
+text-transform:none;
+}
+
+h7 {
+font-size:12px;
+line-height:18px;
+color:#999;
+font-weight:normal;
+text-transform:none;
+}
+.blog h2.contentheading {
+}
+
+/**	TOP			**/
+
+#bottom_top_790 h3, #bottom_top_890 h3, #bottom_top_990 h3, #bottom_top_1090 h3 {
+padding-top:0;
+}
+
+
+/**	LEFT		**/
+
+#left h3 {
+margin-bottom:8px;
+padding:0 0 2px 0;
+border-bottom:2px dotted #ccc;
+}
+
+/**	RIGHT		**/
+
+.right_bottom .texte h3, .right_bottom_green .texte h3, .right_bottom_blue .texte h3 {
+font-size:15px;
+line-height:18px;
+color:#fff;
+font-weight:normal;
+text-transform:uppercase;
+padding: 0 0 12px 0;
+border-bottom:2px dotted #fff;
+margin-bottom:8px;
+}
+
+.right_bottom_grey .texte h3 {
+font-size:15px;
+line-height:18px;
+color:#777;
+font-weight:normal;
+text-transform:uppercase;
+padding: 0 0 12px 0;
+border-bottom:2px dotted #555;
+margin-bottom:8px;
+}
+
+.right_bottom_grey {
+color: #999;
+}
+
+
+.list_right {
+margin: 12px 0 8px 0;
+padding: 0 0 12px 0;
+border-bottom:2px dotted #fff;
+}
+
+.list_right li {
+display:block;
+text-indent:10px;
+font-size:14px;
+font-weight:bold;
+background: transparent url(../images/puce_right.gif) 0 3px no-repeat;
+}
+
+.list_right_arrow {
+margin: 8px 0;
+}
+
+.list_right_arrow li {
+display:block;
+text-indent:10px;
+font-size:12px;
+font-weight:normal;
+background: transparent url(../images/puce_right_arrow.gif) 0 3px no-repeat;
+}
+
+
+/**			LINK		**/
+
+
+a {
+text-decoration : underline;
+}
+
+a:hover {
+text-decoration : none;
+}
+
+
+
+
+a:active, a:focus {
+outline:none;
+}
+
+/*	Pathway	*/
+
+#pathway a, .breadcrumbs {
+color:#ccc;
+text-decoration:none;
+}
+
+#pathway a:hover {
+color:#CC0000;
+text-decoration:none;
+}
+
+
+
+/*	List  */
+
+
+ul.disc {
+margin: 0 0 0 0;
+padding:0;
+}
+
+
+ul.disc li {
+display:block;
+background: transparent url(../images/puce_disc.gif) 0 6px no-repeat;
+text-indent: 10px;
+}
+
+ul.disc ul {
+margin-left: 8px;
+margin-top: 8px;
+padding-left:0;
+}
+
+
+
+
+/*
+*	Quotation
+*/
+
+
+
+
+blockquote.grey, blockquote.white {
+margin: 10px 30px 10px 30px;
+padding: 10px 35px 10px 35px;
+border: none;
+background: url(../images/quote_grey.gif) 0 5px no-repeat;
+text-align:justify;
+font-style:italic;
+font-size:105%;
+}
+
+
+
+
+blockquote.white {
+background: url(../images/quote_white.gif) 0 5px no-repeat;
+}
+
+
+
+
+blockquote.grey p, blockquote.white p {
+margin: 0px -35px -10px 0px;
+padding: 0px 35px 10px 0px;
+background: url(../images/quote_grey_end.gif) 100%  no-repeat;
+}
+
+
+
+
+blockquote.white p {
+background: url(../images/quote_white_end.gif) 100%  no-repeat;
+}
+
+
+
+
+/**  DIV Info  **/
+
+
+
+
+.info {
+line-height:25px;
+padding-left:30px;
+border-top:1px solid #ccc;
+border-bottom:1px solid #ccc;
+background: #e2e2e2 url(../images/logo_info.gif) 4px 3px no-repeat;
+margin: 10px 0;
+}
+
+/**	login	**/
+
+#modlgn_username, #modlgn_passwd {
+background:#fff none repeat scroll 0 0;
+border:1px solid #ccc;
+color:#999;
+display:block !important;
+font-family:Arial,Helvetica,sans-serif !important;
+font-size:12px !important;
+font-size-adjust:none !important;
+font-stretch:normal !important;
+font-style:normal !important;
+font-variant:normal !important;
+font-weight:normal !important;
+height:16px !important;
+line-height:normal !important;
+margin:3px 0;
+padding:2px 5px 2px !important;
+width:120px;
+}
+
+ul.icon_login, ul.icon_login {
+float:left;
+margin: 0 0 0 4px;
+}
+
+ul.icon_login li, ul.icon_login li {
+display:block;
+float:left;
+width:16px;
+height:16px;
+margin:5px 0 0 2px;
+}
+
+ul.icon_login li a:hover, ul.icon_login li#current a, ul.icon_login li.active a {
+border:none;
+}
+
+#form-login-remember {
+clear:both;
+padding-top:8px;
+}
+
+p#form-login-password {
+margin-bottom:20px;
+}
+
+/** 	TOOL TIPS		**/
+
+.tool-tip {
+color: #666;
+width: 139px;
+z-index: 13000;
+}
+ 
+.tool-title {
+font-weight: bold;
+font-size: 115%;
+margin: 0;
+padding: 8px 8px 4px;
+background: transparent url(../images/bubble.png) top left no-repeat;
+}
+ 
+.tool-text {
+font-size: 100%;
+padding: 4px 8px 8px;
+background: transparent url(../images/bubble.png) bottom right no-repeat;
+}
+
+
+/**		FOOTER		**/

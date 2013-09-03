@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<metafile client="site" version="1.5">
+ <author>DutchJoomla!</author>
+ <authorEmail>info@dutchjoomla.org</authorEmail>
+ <authorUrl>www.dutchjoomla.org</authorUrl>
+ <copyright>Copyright (C) 2005 - 2009 DutchJoomla! All rights reserved.</copyright>
+ <creationDate>2009-11-16</creationDate>
+ <description>Dutch language site pack for Joomla</description>
+ <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+ <metadata>
+  <backwardLang>dutch</backwardLang>
+  <locale>nl_NL.utf-8, nl_NL.utf8, nl_NL.UTF-8,nl_NL, nld_NLD, dutch, dutch-nl, nl, netherlands, nl_NL@euro, nl_NL.ISO8859-1, dut-NL, dut_BE, dutch-be, belgium</locale>
+  <name>Dutch-Netherlands</name>
+  <pdfFontName>freesans</pdfFontName>
+  <rtl>0</rtl>
+  <tag>nl-NL</tag>
+  <winCodePage>iso-8859-1</winCodePage>
+ </metadata>
+ <name>Dutch-Netherlands</name>
+ <tag>nl-NL</tag>
+ <version>1.5.15</version>
+</metafile>

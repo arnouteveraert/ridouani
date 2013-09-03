@@ -1,0 +1,68 @@
+/* 
+*	main nav
+*/
+#nav_main ul.menu {
+margin:0px 0 0px 0;
+padding:0;
+}
+#nav_main .menu li {
+display:block;
+border:none;
+margin:0 0 20px 0;
+}
+#nav_main .menu li a {
+display:block;
+line-height:18px;
+color:#999;
+font-size:12px;
+text-transform: uppercase;
+font-weight: bold;
+margin:0;
+padding-left:0px;
+text-decoration:none;
+}
+#nav_main .menu li a:hover, #nav_main .menu li#current a, #nav_main .menu li.active a {
+color:#00759c;
+}
+#nav_main a:hover {
+text-decoration:none;
+}
+#nav_main ul.menu ul{
+margin: 4px 0 0 0;
+}
+#nav_main ul.menu li li {
+margin: 0px;
+}
+#nav_main ul.menu li li a {
+font-size:10px;
+line-height:18px;
+text-transform: uppercase;
+font-weight: normal;
+color:#999;
+}
+#nav_main ul.menu li a:hover li a, #nav_main ul.menu li#current li a, #nav_main ul.menu li.active li a {
+color:#999;
+}
+#nav_main ul.menu li li a:hover, #nav_main ul.menu li li#current a, #nav_main ul.menu li li.active a,
+#nav_main ul.menu li#current li a:hover, #nav_main ul.menu li.active li a:hover {
+color: #00759c;
+}
+#nav_main ul.menu ul ul {
+margin: 2px 0 4px 0;
+}
+#nav_main ul.menu li li li a {
+font-size:11px;
+text-transform: none;
+font-weight: normal;
+color:#999;
+background: transparent url(../images/puce_nav_left.gif) 0 5px no-repeat;
+text-indent:8px;
+}
+#nav_main ul.menu li li li a:hover, #nav_main ul.menu li li li#current a, #nav_main ul.menu li li li.active a {
+color:#00759c;
+background: transparent url(../images/puce_nav_left.gif) 0 -11px no-repeat;
+}
+#nav_main ul.menu li a:hover li li a, #nav_main ul.menu li#current li li a, #nav_main ul.menu li.active li li a,
+#nav_main ul.menu li li a:hover li a, #nav_main ul.menu li li#current li a, #nav_main ul.menu li li.active li a {
+color: #999;
+}
