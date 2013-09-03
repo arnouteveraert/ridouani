@@ -1,7 +1,0 @@
-/**		JoomSpirit CSS file for color theme*/
-body {background-color: #f5f6f8;color:#444;}#right {color: #fff;}#bottom {}.article-tools {background-color:transparent;}
-/*  link   */
-a {color:#CC0000;}
-a:hover {color:#CC0000;}/**  READ ON  **/a.readon, a.readmore {margin-left:25px;height:20px;text-decoration:none;}
-a.readon:link, a.readon:visited, a.readmore:link, a.readmore:visited {color: #777;}
-a.readon:hover, a.readmore:hover {color:#CC0000;text-decoration:underline;}
